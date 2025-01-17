@@ -72,35 +72,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "3D Developers Poertfolio",
+    des: "ortfolio which you are using is my personal favourite project.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg",],
+    link: "/https://github.com/The-Pavan-Patil/PavansPortfolio",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Gaze driven wheelchair",
+    des: "A Smart-wheelchair which helps the paralysed patient to move using their Gaze.",
+    img: "/chair.svg",
+    iconLists: ["python.svg","c.svg",],
+    link: "https://github.com/The-Pavan-Patil/GazeDrivenWheelchair",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Realtime Weather App",
+    des: "A Real time weather app which shows the weather of the current location.",
+    img: "/weather.svg",
+    iconLists: ["flutter.svg"],
+    link: "https://github.com/The-Pavan-Patil/mini_weather_app",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "VitaLink",
+    des: "It is a IoT based Patient Monitoring system which helps the doctors to monitor the patient's health in real time.",
+    img: "/doctor.svg",
+    iconLists: ["flutter.svg","c.svg","Python.svg"],
+    link: "",
   },
 ];
 
@@ -136,71 +136,39 @@ export const testimonials = [
     title: "Director of AlphaStream Technologies",
   },
 ];
-
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "DRDO",
+    img: "/drdo.svg",
+    nameImg: "/drdo.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Corizo",
+    img: "/corizo.svg",
+    nameImg: "/corizo.svg",
   },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
 
+];
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Project Intern ",
+    company: "Defence research and development oraganisation, Pune ",
+    desc: "Acquired in-depth knowledge of various LiDAR sensors, including their operational principles and output variations. Studied and tested machine learning architectures for object detection, implementing dimensionality reduction techniques to enhance training efficiency. Evaluated and measured performance parameters of object detection models, optimizing their performance across diverse scenarios.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Data Analyst Trainee",
+    company:'Corizo',
+    desc: "Conducted data analysis on datasets to extract meaningful insights, improving decision-making processes. Applied various machine learning algorithms to develop and optimize predictive models for accurate forecasting. Designed and implemented data visualizations to identify patterns, trends, and actionable insights effectively.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
-  },
 ];
-
 export const socialMedia = [
   {
     id: 1,
