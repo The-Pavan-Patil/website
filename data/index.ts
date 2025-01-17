@@ -173,13 +173,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:'https://github.com/The-Pavan-Patil',
   },
   {
     id: 2,
     img: "/twit.svg",
+    link:'https://x.com/The_Pavan_Patil',
   },
   {
     id: 3,
     img: "/link.svg",
+    link:'https://www.linkedin.com/in/thepavanpatilofficial',
   },
 ];
