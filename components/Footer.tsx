@@ -37,7 +37,7 @@ const Footer = () => {
           Pavan Patil
         </p>
 
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center md:gap-3 gap-6 sm:top-2">
           {socialMedia.map((info) => (
             <div
               key={info.id}
