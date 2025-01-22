@@ -83,7 +83,7 @@ export const projects = [
     title: "Gaze driven wheelchair",
     des: "A Smart-wheelchair which helps the paralysed patient to move using their Gaze.",
     img: "/chair.svg",
-    iconLists: ["python.svg","c.svg",],
+    iconLists: ["python.svg"],
     link: "https://github.com/The-Pavan-Patil/GazeDrivenWheelchair",
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
     title: "VitaLink",
     des: "It is a IoT based Patient Monitoring system which helps the doctors to monitor the patient's health in real time.",
     img: "/doctor.svg",
-    iconLists: ["flutter.svg","c.svg","Python.svg"],
+    iconLists: ["flutter.svg","Python.svg"],
     link: "",
   },
 ];
