@@ -75,7 +75,7 @@ export const projects = [
   {
     id: 1,
     title: "3D Developers Portfolio",
-    des: "ortfolio which you are using is my personal favourite project.",
+    des: "Portfolio which you are using is my personal favourite project.",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg",],
     link: "/https://github.com/The-Pavan-Patil/PavansPortfolio",
