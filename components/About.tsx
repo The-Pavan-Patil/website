@@ -4,7 +4,7 @@ import Pavan from "../public/Pavan.jpg"
 export class About extends Component {
   render() {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen py-12 px-4 sm:px-6 lg:px-8" id='About'>
+      <div className="flex flex-col items-center justify-center min-h-screen py-12 px-4 sm:px-6 lg:px-8" id='About '>
         <div className="max-w-4xl w-full space-y-8 text-center">
           {/* Image Section */}
           <div className="flex justify-center">
