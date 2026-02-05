@@ -24,7 +24,7 @@ export class About extends Component {
             
             <div className="max-w-2xl mx-auto">
              <p className="text-white-200 md:mt-10 my-5 text-center">
-          Hi, My self Pavan Patil and I am rececnt graduate from the Pune University and a full stack developer with expertise in modern web technologies. I am passionate about building scalable and efficient software solutions that meet the needs of users.
+          Hi, My self Pavan Patil and I am recent graduate from the Pune University and a full stack developer with expertise in modern web technologies. I am passionate about building scalable and efficient software solutions that meet the needs of users.
         </p>
             </div>
           </div>
