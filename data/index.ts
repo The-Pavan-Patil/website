@@ -73,6 +73,22 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Nudge App",
+    des: "Cross-platform social collaboration app with React Native, PowerSync (offline-first), and Supabase PostgreSQL. Real-time task nudging, LLM-accelerated UI from Figma, and end-to-end client delivery.",
+    img: "/Nudge-design.png",
+    iconLists: ["/icons8-react-native.svg", "/ts.svg", "/node.svg"],
+    link: "#",
+  },
+  {
+    id: 2,
+    title: "Philips Green Heart Website",
+    des: "Developed the website for the Philips Greenheart product using React.js, TypeScript, and Figma.",
+    img: "/Philips_Wordmark-ALI-global.jpeg",
+    iconLists: ["/re.svg", "/ts.svg", "/fm.svg"],
+    link: "#",
+  },
+  {
+    id: 3,
     title: "3D Developers Portfolio",
     des: "Portfolio which you are using is my personal favourite project.",
     img: "/p1.svg",
@@ -80,7 +96,7 @@ export const projects = [
     link: "/https://github.com/The-Pavan-Patil/PavansPortfolio",
   },
   {
-    id: 2,
+    id: 4,
     title: "Sonai Engineering & Services",
     des: "The website is built for a company which provides various engineering services.",
     img: "sonai_full.svg",
@@ -88,7 +104,7 @@ export const projects = [
     link: "https://www.sonaiengineering.in",
   },
   {
-    id: 3,
+    id: 5,
     title: "Warehouse Mangement System Backend",
     des: "It is a Warehouse Management System backend built using Nodejs and Expressjs.",
     img: "/warehouse.svg",
@@ -96,7 +112,7 @@ export const projects = [
     link: "https://warehouse-tglv.onrender.com/",
   },
   {
-    id: 4,
+    id: 6,
     title: "VitaLink",
     des: "It is a IoT based Patient Monitoring system which helps the doctors to monitor the patient's health in real time.",
     img: "/doctor.svg",
@@ -118,15 +134,21 @@ export const companies = [
     img: "/sonai.svg",
     nameImg: "/sonai_full.svg",
   },
+  {
+    id: 3,
+    name: "Ownpath",
+    img: "/Ownpath-design.png",
+    nameImg: "/Ownpath-design.png",
+  },
 ];
 export const workExperience = [
   {
     id: 1,
-    title: "Project Intern",
-    company: "Defence research and development oraganisation, Pune ",
-    desc: "I developed a high-performance backend system that deployed LiDAR object detection models on an Express.js server, achieving response times of under 100 milliseconds for real-time defense surveillance applications. Using the Ouster SDK, I integrated LiDAR data acquisition in Python, processing over 10GB of point cloud data daily and optimizing data format conversion to ensure seamless integration with the Express.js backend while maintaining 95% data accuracy. I also implemented RESTful APIs to serve processed LiDAR detection results to frontend visualization systems, enabling real-time analysis and tracking of more than 50 concurrent objects in defense scenarios. Additionally, I optimized the data transfer pipeline between the Python-based machine learning module and the Node.js backend, reducing data latency by 60% and ensuring robust, real-time performance with fail-safe mechanisms critical to defense operations.",
+    title: "Software Engineer",
+    company: "Ownpath",
+    desc: "Project 1 — Philips Greenheart Website: Developed a pixel-perfect corporate website for Philips using React.js, TypeScript, and Tailwind CSS, translating Figma design specifications into production-ready code with 100% design fidelity. Implemented a comprehensive unit testing suite to ensure code reliability and maintainability across components. Integrated Application Performance Monitoring (APM) to track real-time metrics, monitor user interactions, and optimize application performance.\n\nProject 2 — Nudge (Vendaka Pvt Ltd): Engineered a cross-platform social collaboration application using React Native with PowerSync for offline-first architecture and Supabase PostgreSQL backend, enabling seamless data synchronization across devices. Built a collaborative task ecosystem with real-time nudging functionality for contextual notifications and social interactions. Used LLMs to accelerate product development and translated complex Figma design specifications and feature flow diagrams into intuitive user interfaces. Managed end-to-end client communications, gathering requirements, incorporating feedback, and iterating on features to align with business objectives and user needs.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/Ownpath-design.png",
   },
   {
     id: 2,
@@ -135,6 +157,14 @@ export const workExperience = [
     desc: "I engineered a comprehensive workforce management system for an MEP firm using React.js, TypeScript, Node.js, and MongoDB, enabling efficient real-time tracking of over 100 workers across multiple construction sites. The system featured intelligent payroll automation with configurable overtime rates (ranging from 1.5x to 5x) and Excel export functionality, reducing payroll processing time by 75% and eliminating manual calculation errors. I also built an advanced attendance tracking system that automated check-in/check-out processes and performed real-time overtime calculations, achieving 99.9% accuracy in computing working hours and performance analytics. To enhance usability, I implemented a dual-interface architecture that included a protected admin panel for workforce management and a public portfolio showcase displaying the company’s MEP projects, expertise, and client testimonials, all within a responsive design and secured by authentication middleware. Additionally, I designed a RESTful API architecture supporting comprehensive CRUD operations, robust data validation, and secure endpoints for labour, site, and portfolio management, ensuring reliable and protected data access across the system.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
+  },
+  {
+    id: 3,
+    title: "Project Intern",
+    company: "Defence research and development oraganisation, Pune ",
+    desc: "I developed a high-performance backend system that deployed LiDAR object detection models on an Express.js server, achieving response times of under 100 milliseconds for real-time defense surveillance applications. Using the Ouster SDK, I integrated LiDAR data acquisition in Python, processing over 10GB of point cloud data daily and optimizing data format conversion to ensure seamless integration with the Express.js backend while maintaining 95% data accuracy. I also implemented RESTful APIs to serve processed LiDAR detection results to frontend visualization systems, enabling real-time analysis and tracking of more than 50 concurrent objects in defense scenarios. Additionally, I optimized the data transfer pipeline between the Python-based machine learning module and the Node.js backend, reducing data latency by 60% and ensuring robust, real-time performance with fail-safe mechanisms critical to defense operations.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
   },
 ];
 export const socialMedia = [

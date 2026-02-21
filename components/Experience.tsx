@@ -5,16 +5,16 @@ import { Button } from "./ui/MovingBorders";
 
 const Experience = () => {
   return (
-    <div className="py-20 w-full" id="experience">
+    <div className="py-20 w-full" id="experience" >
       <h1 className="heading">
         My <span className="text-purple">work experience</span>
       </h1>
 
-      <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
+      <div className="w-full max-w-4xl mx-auto mt-12 grid lg:grid-cols-1 grid-cols-1 gap-10">
         {workExperience.map((card) => (
           <Button
             key={card.id}
-            //   random duration will be fun , I think , may be not
+            //   random duration will be fun , I think or may be not
             duration={Math.floor(Math.random() * 10000) + 10000}
             borderRadius="1.75rem"
             style={{
@@ -39,7 +39,7 @@ const Experience = () => {
                 <h1 className="text-start text-xl md:text-2xl font-bold">
                   {card.title}
                 </h1>
-                <p className=" text-white-100 mt-3 font-semibold text-start">
+                <p className="text-white-100 mt-3 font-semibold text-justify whitespace-pre-line">
                   {card.desc}
                 </p>
               </div>
@@ -47,19 +47,21 @@ const Experience = () => {
           </Button>
         ))}
       </div>
-      <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 max-lg:mt-10 mt-10">
-        {companies.map((company) => (
-          <React.Fragment key={company.id}>
-            <div className="flex md:max-w-60 max-w-32 gap-2">
-              <img
-                src={company.nameImg}
-                alt={company.name}
-                width={company.id === 4 || company.id === 5 ? 100 : 150}
-                className="md:w-24 w-20 bg-purple rounded-full"
-              />
-            </div>
-          </React.Fragment>
-        ))}
+      <div className="w-full flex justify-center max-lg:mt-10 mt-10">
+        <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16">
+          {companies.map((company) => (
+            <React.Fragment key={company.id}>
+              <div className="flex shrink-0 justify-center">
+                <img
+                  src={company.nameImg}
+                  alt={company.name}
+                  width={company.id === 4 || company.id === 5 ? 100 : 150}
+                  className={`md:w-24 w-20 rounded-full ${company.id === 3 ? "bg-grey" : "bg-white"}`}
+                />
+              </div>
+            </React.Fragment>
+          ))}
+        </div>
       </div>
     </div>
   );
